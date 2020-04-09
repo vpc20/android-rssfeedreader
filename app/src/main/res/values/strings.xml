@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RSS Feed Reader</string>
+    <string name="rss_sites">Rss Sites</string>
+    <string name="rss_sitename">Rss Sitename</string>
+    <string name="rss_url">Rss Url</string>
+    <string name="save">Save</string>
+<!--    <string name="delete_site">Delete Site</string>-->
+<!--    <string name="ok">OK</string>-->
+<!--    <string name="cancel">Cancel</string>-->
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+
+</resources>

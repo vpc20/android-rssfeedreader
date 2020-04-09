@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!--<resources>-->
+<!--    <color name="colorPrimary">#008577</color>-->
+<!--    <color name="colorPrimaryDark">#00574B</color>-->
+<!--    <color name="colorAccent">#D81B60</color>-->
+<!--</resources>-->
+
+<!--<resources>-->
+<!--    <color name="colorPrimary">#A2B3C1</color>-->
+<!--    <color name="colorPrimaryDark">#95A8B7</color>-->
+<!--    <color name="colorAccent">#95A8B7</color>-->
+<!--    <color name="color_title">#000000</color>-->
+<!--</resources>-->
+<resources>
+    <color name="primaryColor">#8d6e63</color>
+    <color name="primaryLightColor">#be9c91</color>
+    <color name="primaryDarkColor">#5f4339</color>
+    <color name="secondaryColor">#6d4c41</color>
+</resources>
+
+<!--<color name="secondaryLightColor">#9c786c</color>-->
+<!--<color name="secondaryDarkColor">#40241a</color>-->
+<!--<color name="primaryTextColor">#ffffff</color>-->
+<!--<color name="secondaryTextColor">#ffffff</color>-->
+<!--<color name="popupBackground">#bcaaa4</color>-->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rssFeedFragment">
+
+    <fragment
+        android:id="@+id/rssFeedFragment"
+        android:name="com.example.rssfeedreader.ui.RssFragment"
+        android:label="Rss Feeds"
+        android:layout="@layout/rss_fragment" />
+
+    <fragment
+        android:id="@+id/rssSitesFragment"
+        android:name="com.example.rssfeedreader.ui.RssSitesFragment"
+        android:label="Rss Sites"
+        android:layout="@layout/rss_sites_fragment">
+        <action
+            android:id="@+id/action_rssSitesFragment_to_rssEditFragment"
+            app:destination="@id/rssEditFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/rssEditFragment"
+        android:name="com.example.rssfeedreader.ui.RssEditFragment"
+        android:label="Rss Sites">
+        <argument
+            android:name="dbOperationType"
+            app:argType="string" />
+        <argument
+            android:name="rssSiteName"
+            app:argType="string" />
+        <argument
+            android:name="rssUrl"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

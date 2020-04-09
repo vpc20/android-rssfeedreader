@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <drawable name="window_background">#eeeeee</drawable>-->
+    <drawable name="window_background">#fafafa</drawable>
+    <drawable name="action_mode_background">@color/primaryColor</drawable>
+<!--    <drawable name="popup_background">@color/primaryColor</drawable>-->
+</resources>
